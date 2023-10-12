@@ -1,0 +1,21 @@
+<style>
+body {
+  background-image: url('image2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+</style>
+
+<h2>Password Strength Checker</h2>
+<form id="form" action="check.py">
+  <p id=form-prompt>checking...</p>
+
+<form action="/path/to/password_strength.cgi" method="post">
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password">
+  
+  <input type="submit" value="Check">
+</form>
+
