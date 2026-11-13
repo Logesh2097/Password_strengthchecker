@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Password Strength Checker</title>
+  <style>
+    body {
+      background-image: url('image2.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  <h2>Password Strength Checker</h2>
+  <form action="/cgi-bin/check.py" method="post">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" autocomplete="off" required>
+    <input type="submit" value="Check">
+  </form>
+</body>
+</html>
